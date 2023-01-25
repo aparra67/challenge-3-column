@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Estilos personalizados*/
+.container {
+    width: 70%;
+    height: 100vh;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.container-box {
+    display: flex;
+    width: auto;
+    margin-top: 8rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    width: 400px;
+    height: 450px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.box-1 {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.box-2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.box-3 {
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.box img {
+    margin: 3rem 10rem 1rem 3rem;
+}
+
+.text {
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.boton {
+    width: auto;
+    margin-bottom: 3rem;
+}
+
+.title {
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    font-size: 40px;
+    margin-left: 3rem;
+}
+
+.description {
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-weight: lighter;
+    margin: auto;
+    margin-left: 1.5rem;
+    padding: 1.5rem;
+    text-align: left;
+    line-height: 1.5rem;
+}
+
+input {
+    font-family: 'Lexend Deca', sans-serif;
+    background: hsl(0, 0%, 95%);
+    border-radius: 50px;
+    border: none;
+    width: auto;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 16px 45px;
+    text-align: center;
+    font-size: 15px;
+}
+
+input:hover {
+    background: none;
+    outline: 2px solid hsl(0, 0%, 95%);
+}
+
+#orange {
+    color: hsl(31, 77%, 52%);
+}
+
+#orange:hover {
+    color: hsl(0, 0%, 95%);
+}
+
+#green-1 {
+    color: hsl(184, 100%, 22%);
+}
+
+#green-1:hover {
+    color: hsl(0, 0%, 95%);
+}
+
+#green-2 {
+    color: hsl(179, 100%, 13%);
+}
+
+#green-2:hover {
+    color: hsl(0, 0%, 95%);
+}
+/* Media query*/
+@media(min-width: 250px) and (max-width: 830px) {
+    .container-box {
+        flex-direction: column;
+    }
+
+    .box-1 {
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 10px;
+    }
+
+    .box-3 {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+}
