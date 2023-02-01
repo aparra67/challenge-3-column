@@ -282,7 +282,7 @@ input:hover {
 @media(min-width: 769px) and (max-width: 992px) {
     .box {
         width: 15rem;
-        height: 33rem;
+        height: 29rem;
     }
 
     .box img {
@@ -290,7 +290,7 @@ input:hover {
     }
 
     .text {
-        margin-top: -4rem;
+        margin-top: -1rem;
     }
 
     .title {
@@ -299,7 +299,7 @@ input:hover {
     }
 
     .description {
-        font-size: 11px;
+        font-size: 11.5px;
         line-height: 1.5rem;
     }
 
@@ -307,7 +307,7 @@ input:hover {
         margin-left: 3rem;
         padding: 13px 18px;
         text-align: center;
-        font-size: 11px;
+        font-size: 11.5px;
     }
 }
 
